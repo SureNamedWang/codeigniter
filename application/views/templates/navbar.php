@@ -1,9 +1,9 @@
-<div class="main-header" data-background-color="purple">
+<div class="main-header" data-background-color="blue">
 <!-- Logo Header -->
 <div class="logo-header">
     
     <a href="index.html" class="logo">
-        <img src="../assets/img/logoazzara.svg" alt="navbar brand" class="navbar-brand">
+         <img src="<?php echo base_url();?>/assets/img/nh.png" alt="navbar brand" class="navbar-brand pb-1 pr-2" style="width:95%; margin-left: -5%;">
     </a>
     <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
@@ -22,11 +22,13 @@
 <!-- Navbar Header -->
 <nav class="navbar navbar-header navbar-expand-lg">
     <div class="container-fluid">
-        <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+    <!-- <a class="btn btn-danger btn-round" href="<?php echo base_url();?>Login/logout" aria-expanded="false" style="position: right;">Logout</a> -->
+       <!--  <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
             <li class="nav-item dropdown hidden-caret">
-                <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
-                    <div class="avatar-sm">
-                        <img src="../assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+                <a class="btn btn-danger btn-round" href="<?php echo base_url();?>Login/logout" aria-expanded="false">
+                    <div class="avatar-sm"> -->
+                  <!--   <a href="<?php echo base_url();?>Login/logout">
+                                  
                     </div>
                 </a>
                 <ul class="dropdown-menu dropdown-user animated fadeIn">
@@ -51,7 +53,7 @@
                     </li>
                 </ul>
             </li>
-        </ul>
+        </ul> -->
     </div>
 </nav>
 <!-- End Navbar -->
